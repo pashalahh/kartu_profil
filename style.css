@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body {
+    background: linear-gradient(135deg, #c9eaff, #89cff0, #4682b4);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+}
+
+#profile-card {
+    background-color: #f0f8ff;
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 12px;
+    border: 2px solid #04ddf9;
+    box-shadow: 0 4px 10px rgba(2, 251, 255, 0.664);
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+#profile-card img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%; 
+    object-fit: cover;
+    margin-bottom: 15px;
+    border: 3px solid #ffffff;
+    box-shadow: 0px 0px 10px rgb(0, 200, 255);
+}
+
+#profile-card h1 {
+    font-size: 1.4rem;
+    margin-bottom: 5px;
+}
+
+.role {
+    color: #555;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.btn-primary, 
+.btn-secondary {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    margin: 5px;
+    font-weight: bold;
+}
+
+.btn-primary, .btn-secondary{
+    background-color: #00bfff;
+    color: white;
+}
+
+.btn-primary:hover, .btn-secondary:hover {
+    background-color: #0056b3;
+}

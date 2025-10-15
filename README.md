@@ -1,2 +1,2 @@
-# kertu_profil
+# kartu_profil
 Membuat Kartu Profil Pribadi
